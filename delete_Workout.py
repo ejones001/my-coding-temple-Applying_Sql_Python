@@ -3,8 +3,8 @@ import mysql.connector
 def delete_workout_session(session_id):
     try:
         # Establish a database connection
-        cnx = mysql.connector.connect(user='your_username', password='your_password',
-            host='your_host', database='your_database')
+        cnx = mysql.connector.connect(user='root', password='That08er',
+            host='localhost', database='mycodingtempledata')
 
         # Create a cursor object
         cursor = cnx.cursor()
