@@ -3,8 +3,8 @@ import mysql.connector
 def update_member_age(member_id, new_age):
     try:
         # Establish a database connection
-        cnx = mysql.connector.connect(user='your_username', password='your_password',
-                                      host='your_host', database='your_database')
+        cnx = mysql.connector.connect(user='ejones001', password='That08er',
+                                      host='SASKE', database='MyCodingTempleData')
 
         # Create a cursor object
         cursor = cnx.cursor()
