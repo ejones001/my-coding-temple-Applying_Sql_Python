@@ -3,8 +3,8 @@ import mysql.connector
 def add_workout_session(member_id, date, duration_minutes, calories_burned):
     try:
         # Establish a database connection
-        cnx = mysql.connector.connect(user='ejones001', password='That08er',
-                                      host='SASKE', database='MyCodingTempleData')
+        cnx = mysql.connector.connect(user='root', password='That08er',
+                                      host='localhost', database='MyCodingTempleData')
 
         # Create a cursor object
         cursor = cnx.cursor()
