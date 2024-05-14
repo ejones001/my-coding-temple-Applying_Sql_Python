@@ -1,10 +1,11 @@
-import mysql.connector
+import mysql.connector # type: ignore
+
 
 def get_members_in_age_range(start_age, end_age):
     try:
         # Establish a database connection
         cnx = mysql.connector.connect(user='ejones001', password='That08er',
-                                      host='SASKE', database='MyCodingTempleData')
+                                      host='your_host', database='MyCodingTempleData')
 
         # Create a cursor object
         cursor = cnx.cursor()
